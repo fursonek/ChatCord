@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy");
+
+body{
+    background-color: #282c34;
+    color: white;
+}
+
+main#login-page{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main#login-page header h1{
+    color: #7289DA;
+    font-family: 'Uni Sans Heavy';
+    font-size: 102px;
+    margin: 0;
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 392px;
+}
+
+#login-form #input-wraper{
+    margin: 10px;
+    width: 100%;
+}
+
+#login-form p{
+    font-family: 'Roboto';
+    font-size: 20px;
+    margin-top: 10;
+    margin-bottom: 2px;
+    letter-spacing: 3px;
+}
+
+#login-form input{
+    /* Reset default css */
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    
+    
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    width: 97%;
+    height: 30px;
+    padding: 5px;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    transition: border-width .05s linear;
+}
+
+#login-form input:focus{
+    border-width: 3px;
+}
+
+#login-form button{
+    outline: none;
+    border: none;
+
+    font-family: 'Roboto';
+    font-size: 18px;
+    width: 100%;
+    height: 40px;
+    margin: 20px;
+    color: white;
+    background-color: #7289DA;
+    border-radius: 5px;
+}

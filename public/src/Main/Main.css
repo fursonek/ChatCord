@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,600;1,900&display=swap");
+@import url("//db.onlinewebfonts.com/c/4f6fb2fa3c231278167b36e966718cbb?family=Uni+Sans+Heavy");
+
+main#main-page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#chat{
+    display: flex;
+    width: 70vw;
+    height: 75vh;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#chat-message{
+    margin: 20px;
+}
+
+#chat-message p{
+    margin: 0;
+}
+
+#chat-message p#username{
+    font-size: 30px;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+#chat-message p#content{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
+#chat-message #author-info{
+    display: flex;
+}
+
+#chat-message #author-info #date{
+    display: flex;
+    align-self: flex-end;
+    text-align: end;
+    padding: 5px;
+    margin-left: 10px;
+    color: #636363;
+}
+
+#chat-messages{
+    height: 100%;
+    overflow: auto;
+}
+
+#chat-area{
+    width: 100%;
+    height: 50px;
+}
+
+#chat-area form{
+    width: 100%;
+    height: 100%;
+}
+
+#chat-area input{
+    /* Reset default css */
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #99AAB5;
+    padding: 5px;
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: none;
+    transition: border-width .05s linear;
+}
